@@ -1,0 +1,121 @@
+// Suggested location to add your overrides so that migration would be easy by just updating the SASS folder in the future
+
+a {
+  outline: none !important;
+  box-shadow: none !important;
+  color: var(--primary-color);
+}
+
+button {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.p-radiobutton {
+  margin-right: 5px;
+}
+
+.field-radiobutton {
+  margin-top: 10px;
+}
+.p-megamenu{
+  border: none;
+  border-radius: 0;
+}
+.p-menubar{
+  border: none;
+  border-radius: 0;
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-content .p-menuitem-link .p-menuitem-text {
+  font-size: 16px;
+  color:#5e74b7 ;
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-content {
+  border-radius: 0;
+  position: relative;
+  &::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: calc(100% + 5px);
+    background: #5bbdbe;
+    transition:  .4s ;
+  }
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-content:hover{
+
+  &:after{
+    width: 100%;
+  }
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-content:hover .p-menuitem-link .p-menuitem-text{
+  color: #5bbdbe !important;
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover{
+  background-color: transparent;
+}
+.nav-box{
+  display: flex;
+  align-items: center;
+}
+.line{
+  width: 1px;
+  height: 25px;
+  background-color: #545454;
+  margin-left: 30px;
+  }
+.line-box{
+  position: fixed;
+  z-index: 1000;
+}
+//===================dialog============================
+.p-dialog-mask {
+  .dialog {
+    min-height: 100%;
+    margin: 0 !important;
+    background: rgba(80, 101, 169, 0.95) !important;
+    .p-dialog-header{
+      display: flex;
+      justify-content: flex-end;
+      .p-dialog-header-close{
+        color: #FFFFFF;
+      }
+    }
+    .p-dialog-header, .p-dialog-content{
+      background: transparent !important;
+    color: #ffffff !important;
+      .services__tittle--dialog-txt{
+        color: #FFFFFF;
+        font-size: 21px;
+        font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+      }
+      .services__tittle--dialog{
+        color: #FFFFFF;
+        font-size: 16.8px;
+        font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+        text-transform: uppercase;
+      }
+      .menu__group--dialog{
+        padding-left: 18px;
+        li > .services__subtitle{
+          color: #ffffffb3;
+        }
+        li > .services__subtitle:hover{
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
+//===================dialog============================
+
+
+.card-check{
+  .card:hover{
+    box-shadow: none !important;
+  }
+}

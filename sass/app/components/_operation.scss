@@ -1,0 +1,24 @@
+.mt-8{
+  .li{
+    margin-left: -20px;
+  }
+  .list-description{
+    color: #5e74b7;
+  }
+  .a {
+    border-bottom: 1px dashed #5e74b7;
+    color: #5e74b7;
+  }
+  ::marker{
+    color: #5e74b7;
+  }
+  ._title{
+    color: #545454;
+  }
+  span{
+    font-weight: 500;
+  }
+  .__a{
+    text-decoration: underline;
+  }
+}

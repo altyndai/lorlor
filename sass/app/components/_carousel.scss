@@ -1,0 +1,66 @@
+.p-carousel-indicators{
+  display: none !important;
+}
+
+
+.animation-icon--left {
+  -webkit-animation: animationiconleft 3s infinite both;
+  animation: animationiconleft 3s infinite both;
+}
+@keyframes animationiconleft {
+  0%{
+    transform: translate(0,0);
+  }
+  50%{
+    transform: translate(10px,10px);
+  }
+  100%{
+    transform: translate(0,0);
+  }
+}
+.animation-icon--right {
+  -webkit-animation: animationiconright 3s infinite both;
+  animation: animationiconright 3s infinite both;
+}
+@keyframes animationiconright {
+  0%{
+    transform: translate(0,0);
+  }
+  50%{
+    transform: translate(-10px,-10px);
+  }
+  100%{
+    transform: translate(0,0);
+  }
+}
+.p-carousel{
+  position: relative !important;
+}
+.p-carousel-content .p-carousel-prev{
+  position: absolute;
+  right: 80px;
+  bottom: 20px;
+  z-index: 10;
+  width: 40px !important;
+  height: 40px !important;
+  background: rgba(200, 200, 200, 0.4)!important;
+  border-radius:0 !important;
+  @media screen and (max-width: 768px){
+    bottom: 60px;
+  }
+}
+.p-carousel .p-carousel-content  .p-carousel-next{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius:0 !important;
+  background: rgba(200, 200, 200, 0.4)!important;
+  @media screen and (max-width: 768px){
+    bottom: 60px;
+  }
+}
+.p-carousel .p-carousel-content  .p-carousel-next:hover, .p-carousel-content .p-carousel-prev:hover{
+  background: rgba(106, 113, 236, 0.8) !important;
+}

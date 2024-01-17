@@ -1,0 +1,322 @@
+.branch{
+padding-left: 50px;
+  padding-top: 50px;
+  .logo{
+    width: 80%;
+  }
+  .branch__metro{
+    width:13px;
+    height: 13px;
+    background-color: #00c1f3;
+    position: relative;
+    transform: translateY(30px);
+    margin-left: -30px;
+    margin-bottom: -10px;
+    &::before{
+      position: absolute;
+      width: 6px;
+      height: 16px;
+      background-color: #00c1f3;
+      content: "";
+      display: block;
+      bottom: 150%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &::after{
+      position: absolute;
+      width: 6px;
+      height: 40px;
+      background-color: #00c1f3;
+      content: "";
+      display: block;
+      top: 120%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  .branch__tag{
+    background-color: #5bbdbe;
+    font-size: 14px;
+  }
+  .branch__tittle{
+    font-size: 16px;
+    color: #545454;
+    font-weight: 500;
+
+  }
+  .branch__subtitle{
+    font-size: 14.5px;
+    line-height:1.6;
+    font-weight: 400;
+    color: #545454;
+  }
+  .branch__txt{
+    font-size: 14px;
+    color: #545454;
+  }
+  .branch__icon{
+    width: 30px ;
+    height: 30px ;
+  }
+  .flex{
+    font-size: 16px;
+    font-weight: 500;
+
+  }
+ .icon{
+   margin-left: -30px;
+ }
+.grey{
+  background-color: #dee2e6;
+  &::before{
+    background-color: #dee2e6;
+  }
+  &::after{
+    background-color: #dee2e6 ;
+  }
+}
+  .red{
+    background-color: #f45b69;
+    &::before{
+      background-color: #f45b69;
+    }
+    &::after{
+      background-color:#f45b69;
+    }
+  }
+  .yellow{
+    background-color: #ffd803;
+    &::before{
+      background-color: #ffd803;
+    }
+    &::after{
+      background-color: #ffd803;
+    }
+  }
+  .blue{
+    background-color: #00c1f3;
+    &::before{
+      background-color: #00c1f3;
+    }
+    &::after{
+      background-color: #00c1f3;
+    }
+  }
+}
+.services{
+
+  .services-menu-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .icon-icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  .services__tittle{
+    color: #545454;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  ::marker{
+    color: red;
+  }
+  .services__subtitle{
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #545454;
+    text-align: left;
+
+  }
+  .menu__group{
+    margin-top: 20px;
+  }
+  .menu__group li{
+    margin-bottom: 18px;
+  }
+}
+.services-all{
+  .services-menu-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .icon-icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  .services__tittle{
+    color: #545454;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  ::marker{
+    color: white;
+  }
+  .services__subtitle{
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #545454;
+    text-align: left;
+
+  }
+  .menu__group{
+    margin-top: 20px;
+  }
+  .menu__group li{
+    margin-bottom: 18px;
+  }
+}
+.lor-info__title{
+  font-size: 38px;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #545454;
+}
+.lor-info__subtitle{
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  width: 70%;
+  margin-bottom: 50px;
+}
+.tel{
+  color: #5e74b7;
+  font-size: 26px;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.specialists-section{
+  background: #F2F2F2;
+}
+.title{
+  padding-top: 50px;
+  font-size: 32px;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #545454;
+}
+.specialists{
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.specialists-info{
+  width: 50%;
+}
+.specialists-menu-title{
+  width: 50%;
+}
+.specialists__img{
+  width: 70%;
+  height: 300px;
+  margin-left: 40px;
+  object-fit: cover;
+  object-position: center;
+}
+.specialists__tittle{
+  font-size: 23px;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #545454;
+}
+.expert{
+  width: 230px;
+  height: 40px;
+  background-color: #5bbdbe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.specialists__subtitle{
+  color: white;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.specialization{
+  color: #545454;
+}
+.experience{
+  color: #545454;
+  font-weight: 400;
+
+}
+.color{
+  background-color: #f45b69;;
+}
+.button{
+  padding: 15px 30px;
+  background-color: #5bbdbe;
+  color: white;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+ border: none;
+  margin-top: 10px;
+}
+.font{
+  border: 1px solid #5e74b7;
+  background-color: white;
+  color: #5e74b7;
+  margin-left: 20px;
+}
+.font:hover{
+  background-color: #5e74b7;
+  color: white;
+}
+.lor__txt{
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+  width: 70%;
+  padding-bottom: 30px;
+}
+span{
+  font-weight: 600;
+}
+.equipment{
+  background-color: white;
+}
+.equipment__img{
+  width: 70%;
+  height: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+.img{
+  width: 100%;
+  height: 500px;
+  object-position: center;
+  object-fit: cover;
+}
+.li{
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+  width: 70%;
+  padding-bottom: 20px;
+}
+.a{
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+  width: 70%;
+}
+.awards{
+  background: #F2F2F2;
+}

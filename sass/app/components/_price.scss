@@ -1,0 +1,31 @@
+.p-accordion .p-accordion-header:not(.p-highlight):not(.p-disabled):hover .p-accordion-header-link{
+  background: #dee2e6;
+}
+.p-accordion .p-accordion-header:not(.p-disabled).p-highlight:hover .p-accordion-header-link{
+  background: #dee2e6;
+}
+.p-accordion .p-accordion-header .p-accordion-header-link .p-accordion-toggle-icon{
+  display: none;
+}
+.p-accordion-tab .accordion-img {
+  transition: 0.5s;
+}
+.p-accordion-tab-active .accordion-img {
+  transform: rotate(180deg);
+}
+
+.p-accordion .p-accordion-content{
+  padding: 0;
+  background: transparent;
+}
+.p-accordion .p-accordion-header .p-accordion-header-action{
+  background: #dee2e6;
+}
+.p-accordion .p-accordion-header .p-accordion-header-link,.p-accordion .p-accordion-content{
+  border: none !important;
+}
+
+.p-accordion .p-accordion-header:not(.p-disabled).p-highlight .p-accordion-header-link{
+  background: #dee2e6;
+
+}
